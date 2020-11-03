@@ -1,7 +1,7 @@
 # Stuy-Schedule
 A simple Rainmeter skin that displays your schedule.  
 
-**NOTE: This schedule only works for now until January (the end of the first semester).**
+**NOTE: This schedule only works for now until January (the end of the first semester).** :snowflake::snowflake::snowflake:
 
 ## Requirements
 - Windows 7 or higher.
