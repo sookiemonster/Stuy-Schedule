@@ -24,6 +24,6 @@ A simple Rainmeter skin that displays your schedule.
 - After installation you can customize colors, the font, and classes / periods in the @Resources\variables.inc using a text editor (colors require RGB values).
 
 ## Issues 
-- Some classes may be too long to display within the skin, which will cause Rainmeter to cut off the class. 
+- Some classes may be too long to display within the skin, which will cause Rainmeter to cut off the name of that class. 
 
 
