@@ -5,7 +5,7 @@ A simple Rainmeter skin that displays your schedule.
 
 ## Requirements
 - Windows 7 or higher.
-- Rainmeter 4.3.1.3321 or higher. (You can try it with older versions, but there's no guarantee it'll work properly)
+- Rainmeter 4.3.1.3321 or higher. 
 
 ## Features
 - Displays the current time.
