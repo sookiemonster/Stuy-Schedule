@@ -17,3 +17,13 @@ A simple Rainmeter skin that displays your schedule.
 ## Important Information
 - The skin follows your system date & time. If your computer's clock is inaccurate, the skin won't work as intended. 
 - Make sure to check the calendar for off-days and the periods in case any sudden changes are added to the Stuy calendar. 
+
+## Installation
+- Install the latest version of rainmeter from https://www.rainmeter.net/
+- Download the .rmskin package & double click. Follow the steps presented in the installer.
+- After installation you can customize colors, the font, and classes / periods in the @Resources\variables.inc using a text editor (colors require RGB values).
+
+## Issues 
+- Some classes may be too long to display within the skin, which will cause Rainmeter to cut off the name of that class. 
+
+
