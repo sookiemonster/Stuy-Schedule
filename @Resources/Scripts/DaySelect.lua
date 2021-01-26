@@ -1,13 +1,26 @@
-orders = {'16161', '06161', '61616', '01616', '16161', '61616', '16161',
-          '61062', '16161', '61600', '16161', '61616', '16161', '61600',
-          '00000', '16161', '61616', '01616', '16161'}
+-- orders = {'16161', '06161', '61616', '01616', '16161', '61616', '16161',
+--           '61062', '16161', '61600', '16161', '61616', '16161', '61600',
+--           '00000', '16161', '61616', '01616', '16161'}
+--
+-- function get_order(week_num)
+--   if week_num < 53 and week_num > 37 then
+--     return orders[week_num-37]
+--   elseif week_num < 37 then
+--     return orders[week_num + 15]
+--   else
+--     return orders[week_num + 52 - 37]
+--   end
+-- end
+
+orders = {'j0', 'j1', 'j2', '01616',             -- Jan
+          '01616', '16160', '00000', '16161',         -- Feb
+          '61616', '16161', '61616', '16161',         -- Mar
+          '00000', '16161', '61616', '16161', '61616', -- Apr
+          '16161', '61601', '61616', '16161',          -- May
+          '06161', '61616', '16161', '61616'}         -- June
 
 function get_order(week_num)
-  if week_num < 53 then
-    return orders[week_num-37]
-  else
-    return orders[week_num + 52 - 37]
-  end
+  return orders[week_num]
 end
 
 function Initialize()
